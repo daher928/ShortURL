@@ -18,12 +18,12 @@
 
 <h3>Running</h3>
 * Service: python short_url_service.py
-  * 2 endpoints: /encode (POST) and /decode (GET)
-  * You can now send HTTP requests
-    * for example using "curl"
-      * curl -X POST -H "Content-Type: application/json" -d '{"url": "www.daher.com"}' http://localhost:5000/encode
+ * 2 endpoints: /encode (POST) and /decode (GET)
+  *  You can now send HTTP requests
+   *  for example using "curl"
+    *  curl -X POST -H "Content-Type: application/json" -d '{"url": "www.daher.com"}' http://localhost:5000/encode
         then
-      * curl http://localhost:5000/decode?short_url=http://shrt.url/0
+    * curl http://localhost:5000/decode?short_url=http://shrt.url/0
       
       response: {"original_url":"www.daher.com"}
 
