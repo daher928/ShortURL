@@ -8,7 +8,7 @@
 * short_url_utils.py -> contains utilities for generating shortURL string
 * memore_store.py -> wrapper for in memory store
   * note that this was implemented using a regular python hash dictionary
-  * with more time I would have replaced it with Redis. 
+  * would have replaced it with Redis. 
   * this src file contains wrapper for in-memory-store so it makes it easier to replace with different DB implementations
 * test/api_test.py -> API tests
   * 1x encode (POST) API test
@@ -30,7 +30,3 @@
 * You can also run the test in test/ directory (it runs the service so no need for manual service running before)
   * cd tests
   * pytest -rP api_test.py
-
-<h3>Note:</h3>
-* I intended to add an HTML UI for the generation of shortURL if I had more time
-* I also intended to learn vert.x to implement the assignment with, but 3 hours aren't enough to get started with vert.x :)
